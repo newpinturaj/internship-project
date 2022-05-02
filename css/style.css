@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 223, 223);
+}
+
+footer {
+    color: white;
+    height: auto;
+    width: auto;
+    background-color: rgb(100, 97, 97);
+    padding: 10px;
+    margin-top: 80px;
+}
+
+
+/************************* MOBILE VIEW *********************************/
+
+
+@media (max-width: 600px) {
+    h1 {
+        text-align: center;
+        color: rgb(97, 93, 93);
+    }
+    
+
+    .head-sec {
+        text-align: left;
+    }
+
+    .head-sec img {
+        width: 15%;
+        margin: 10px 0 10px 10px;
+    }
+
+    .head-sec div {
+        display: inline-block;
+        position: absolute;
+        padding-left: 3%;
+        padding-top: 6%;
+        width: 75%;
+        font-size: 0.6rem;
+    }
+
+    .head-sec h1 {
+        margin-bottom: 0;
+        text-align: left;
+        color: rgb(73, 64, 64);
+        font-weight: 900;
+        /* font-size: 1rem; */
+    }
+    .head-sec p {
+        margin-top: 0;
+        padding-top: 2px;
+        text-align: left;
+        color:rgb(147, 145, 145);
+    }
+
+    .data-input {
+        margin-left: 8px;
+        padding-left: 10px;
+    }
+    .data-input label {
+        text-align: left;
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .data-input input {
+        padding: 0 10px;
+        font-size: 1rem;
+        width:90%;  
+        height: 35px;
+        border-radius: 10px;
+        border-width: 1px;
+        border-color: rgb(97, 93, 93);
+    }
+
+    .data-input textarea {
+        font-size: 1rem;
+        padding: 10px;
+        width: 90%;
+        border-radius: 10px;
+        border-color: grey;
+    }
+    .checkbox {
+        margin-left: 10px;
+    }
+    
+    .checkbox input {
+        width: 20px;
+        height: 20px;
+        margin:30px 5px 0 10px;
+    }
+    
+    .checkbox p {
+        display: inline-block;
+        position: relative;
+        bottom: 4px;
+    }
+    .btn {
+        text-align: center;
+    }
+    .btn input {
+        height: 40px;
+        width: 35%;
+        border-radius: 10px;
+        border-width: 1px;
+        background-color: white ;
+        font-size: 1.5rem;
+    }
+    .submit {
+        margin-left: 10%;
+        color: green;
+        font-weight: 700;
+    }
+    .reset {
+        color: rgb(238, 144, 13);
+        font-weight: 700;
+    }
+    .submit:hover {
+        background-color: green;
+        color: white;
+        border-color: rgb(67, 236, 67);
+        border-width: 2px;
+
+    }
+    .reset:hover {
+        background-color:rgb(238, 144, 13);
+        color: white;
+        border-color: rgb(245, 179, 86);
+        border-width: 2px;
+
+    }
+}
+
+/************************* DESKTOP VIEW *********************************/
+
+@media (min-width: 601px) {
+
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+        color: rgb(97, 93, 93);
+
+    }
+    
+    .checkbox {
+        margin-left:5%;
+    }
+
+    .checkbox input {
+        width: 20px;
+        height: 20px;
+        margin:30px 5px 0 10px;
+    }
+
+    .checkbox p {
+        display: inline-block;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .head-sec {
+        text-align: left;
+    }
+
+    .head-sec img {
+        width: 120px;
+        margin: 30px;
+    }
+
+    .head-sec div {
+        display: inline-block;
+        position: absolute;
+        width: 75%;
+    }
+
+    .head-sec h1 {
+        margin-bottom: 0;
+        text-align: left;
+        font-size: 4rem;
+        color: rgb(73, 64, 64);
+        font-weight: 900;
+
+
+    }
+    .head-sec p {
+        margin-top: 0;
+        padding-top: 2px;
+        text-align: left;
+        color:rgb(147, 145, 145);
+        font-size: 2rem;
+    }
+
+    .data-input {
+        margin: 0 5% 0 5%;
+        padding-left: 10px;
+        display: inline-block;
+    }
+    .data-input label {
+        text-align: left;
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .data-input input {
+        padding: 0 10px;
+        font-size: 1rem;
+        width:500px;
+        height: 35px;
+        border-radius: 10px;
+        border-width: 1px;
+        border-color: rgb(97, 93, 93);
+    }
+    .data-input textarea {
+        font-size: 1rem;
+        padding: 10px;
+        width: 1175px;
+        border-radius: 10px;
+        border-color: grey;
+    }
+    .btn {
+        text-align: center;
+    }
+    .btn input {
+        height: 40px;
+        width: 35%;
+        border-radius: 10px;
+        border-width: 1px;
+        background-color: white ;
+        font-size: 1.5rem;
+    }
+    .submit {
+        margin-left: 10%;
+        color: green;
+        font-weight: 700;
+    }
+    .reset {
+        color: rgb(238, 144, 13);
+        font-weight: 700;
+    }
+    .submit:hover {
+        background-color: green;
+        color: white;
+        border-color: rgb(67, 236, 67);
+        border-width: 2px;
+
+    }
+    .reset:hover {
+        background-color:rgb(238, 144, 13);
+        color: white;
+        border-color: rgb(245, 179, 86);
+        border-width: 2px;
+
+    }
+
+}
+/************************* MOBILE VIEW *********************************/
